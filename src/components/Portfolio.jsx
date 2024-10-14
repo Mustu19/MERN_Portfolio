@@ -43,7 +43,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b dark:from-black dark:to-gray-800 from-white to-gray-800 w-full dark:text-white  min-h-screen flex items-center portfolio"
+      className="bg-gradient-to-b dark:from-black dark:to-gray-800 from-white to-gray-300 w-full dark:text-white  min-h-screen flex items-center portfolio"
     >
       <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full">
         {/* Header */}
