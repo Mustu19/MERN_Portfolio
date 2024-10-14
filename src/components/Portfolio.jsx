@@ -61,11 +61,6 @@ const Portfolio = () => {
               key={id}
               className="shadow-lg shadow-gray-600 rounded-lg overflow-hidden relative group"
             >
-              {/* Project Name */}
-              <div className="absolute top-0 left-0 right-0 bg-black bg-opacity-75 text-center py-2 opacity-0 group-hover:opacity-100 transition duration-300">
-                <p className="text-lg font-semibold">{name}</p>
-              </div>
-
               {/* Image */}
               <a href={video || link} target="_blank" rel="noopener noreferrer">
                 <img
@@ -74,6 +69,11 @@ const Portfolio = () => {
                   className="w-full h-64 object-cover duration-200 group-hover:scale-105 transition-transform"
                 />
               </a>
+
+              {/* Project Name */}
+              <div className="text-center py-2 bg-black bg-opacity-60 text-white font-semibold">
+                <p>{name}</p>
+              </div>
 
               {/* Buttons */}
               <div className="flex justify-center mt-4 space-x-4">
