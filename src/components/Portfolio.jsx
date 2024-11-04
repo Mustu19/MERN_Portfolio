@@ -3,6 +3,7 @@ import studentsays from "../assets/portfolio/studentsays.png";
 import mealmission from "../assets/portfolio/mealmission.jpg";
 import savvytimezone from "../assets/portfolio/savvytimezone.png";
 import spotify from "../assets/portfolio/spotify.png";
+import gma from "../assets/portfolio/gma.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -24,6 +25,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: gma,
+      name: "Gujarat Machinery Agency",
+      link: "https://www.gujaratmachineryagency.in/",
+      repo: "https://www.gujaratmachineryagency.in/",
+      video: "",
+    },
+    {
+      id: 4,
       src: savvytimezone,
       name: "Savvy TimeZone",
       link: "https://savvytimezone.netlify.app",
@@ -31,7 +40,7 @@ const Portfolio = () => {
       video: "",
     },
     {
-      id: 4,
+      id: 5,
       src: spotify,
       name: "Spotify",
       link: "https://github.com/Mustu19/SPOTIFY_CLONE",
